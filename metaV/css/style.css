@@ -1,0 +1,462 @@
+body{
+    background: var(--1, linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%));
+    font-family: orbitron ;
+}
+.frame10 {
+    width: Fixed (675px);
+    height: Hug (28px);
+    gap: 10px;
+}
+.frame10 h1{
+    color: rgba(255, 255, 255, 1);
+    width: 224px;
+    height: 28px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+.frame11 {
+    font-family: poppins ;
+    width: 360px;
+    height: Hug (24px);
+    row-gap: 50px;
+    margin-top: 20px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    float: right;
+    margin-left: 450px;
+}
+.frame11 a{
+    color: rgba(255, 255, 255, 1);
+    width: 68px;
+    height: 24px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 40px;
+}
+.header{
+    width: Hug (1,135px);
+    height: Hug (28px);
+    margin-top: 41px;
+    margin-left: 118px;
+    gap: 100px;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+#first{
+    width: 636px;
+    height: 761px;
+    margin-top: 149px;
+}
+#top{
+    width: 612px;
+    height: 138px;
+    color:rgba(255, 255, 255, 1);
+}
+#tbs1{
+    width: 363px;
+    height: 72px;
+    margin-top: 66px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(rgba(248, 108, 248, 1),rgba(100, 206, 245, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#center{
+    width: 521px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+}
+.text1{
+    width: Hug (312px);
+    height: Hug (393px);
+    margin-top: 140px;
+    margin-left: 118px;
+    gap: 40px;
+    position: relative;
+    display: inline-block;
+}
+#body1{
+    display: table;
+    content: "";
+    clear: both;
+    float: left;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
+    font-family: orbitron;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0fr 1fr 0fr;
+}
+#blur{
+    margin-top: -200px;
+    margin-left: 100px;
+    width: 546px;
+    height: 303px;
+    flex-shrink: 0;
+    background: #000;
+    filter: blur(100px);
+}
+button{
+    width:173px;
+    height: Fixed (54px);
+    font-size: 20px;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+    gap: 10px;
+    font-family: poppins;
+    color: white;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+#btn1{
+    background: linear-gradient(90deg,rgba(209, 14, 209, 1),rgba(16, 163, 218, 1));
+    border: 1px solid;
+    border-image: linear-gradient(90deg,rgba(209, 14, 209, 1),rgba(16, 163, 218, 1))1;
+}
+#btn2{
+    background-color:black ;
+    border: 1px solid;
+    border-image: linear-gradient(90deg,rgba(209, 14, 209, 1),rgba(16, 163, 218, 1))1;
+}
+#fame{
+    color: white;
+    position: relative;
+    display: table;
+}
+#name{
+    font-size: 18px;
+    font-family: poppins;
+}
+#num{
+    font-size: 24px;
+}
+.body2{
+    width: Hug (1,210px);
+    height: Hug (486px);
+    margin-top: 887px;
+    margin-left: 115px;
+    gap: 154px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0fr 1fr 0fr;
+}
+.body2img{
+    width: 532px;
+    height: 439px;
+    border: 1px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0fr 1fr 0fr;
+}
+.body2img #img1{
+    width: 282px;
+    height: 297px;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+.body2img #img2{
+    width: 286px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: -45px;
+    image-orientation: -180 deg;
+}
+.tbs{
+    width: 500px;
+    height: 486px;
+    margin-top: 170px;
+    gap: 52px;
+    color: white;
+}
+.tbs p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.tbs h1{
+    font-family: Orbitron;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+b{
+    background: linear-gradient(90deg,rgba(248, 108, 248, 1),rgba(100, 206, 245, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#btn3{
+    width: 137px;
+    height: Fixed (44px);
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+    gap: 10px;
+    background: linear-gradient(90deg,rgba(209, 14, 209, 1),rgba(16, 163, 218, 1));
+    border: none;
+}
+.body3{
+    width: 1,198px;
+    height:1,105px;
+    margin-top: 0px;
+    margin-left: 120px;
+    gap: 87px;
+}
+#header1{
+    margin-top: 60px;
+    text-align: center;
+    color:white;
+}
+#header1 h1{
+    
+    font-family: Orbitron;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+}
+#header1 p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content{
+    width: 1,198px;
+    height: 904px;
+    gap: 36px;
+    margin-top: 60px;
+    display: table;
+    content: "";
+    clear: both;
+    float: left;
+    padding: 10px 10px;
+    font-family: orbitron;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0fr 1fr 0fr;
+}
+#content1{
+    width: 374px;
+    height: 434px;
+    background-color: rgba(9, 8, 35, 1);
+    border-radius: 0px 25px;
+}
+#content1 img{
+    width: 335px;
+    height: 217px;
+    margin-top: 18px;
+    margin-left: 19px;
+    border-radius: 0px 15px 0px 0px;
+}
+#content1 h1{
+    width: 274px;
+    margin-left: 19px;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+#content1 p{
+    width: 336px;
+    height: 42px;
+    margin-left: 19px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.button2{
+    margin-left: 18px;
+}
+#content1 button{
+    width:103px;
+    height: 36px;
+    margin-top: 0px;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px;
+}
+#explore{
+    background-color:rgba(9, 8, 35, 1) ;
+    border: 1px solid;
+    border-image: linear-gradient(90deg,rgba(209, 14, 209, 1),rgba(16, 163, 218, 1))1;
+}
+.body4{
+    width: 873px;
+    height: 198.17px;
+    margin-top: 1100px;
+    margin-left: 269px;
+    gap: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+.body4 h1{
+    width: 373px;
+    height: 44px;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px 220px 0px 240px;
+}
+.body4 p{
+    width: 698.206963339878px;
+    height: 134.99999867070883px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px 220px 0px 78px;
+}
+.body5{
+    width: 1182px;
+    height: 650px;
+    background-color: beige;
+    margin-top: 60px;
+    margin-left: 119px;
+    border: none;
+    border-radius: 25px;
+    background: url("/img/metaverse\ 1.png"), lightgray 50% / cover no-repeat;
+}
+#body5text{
+    width: 1182px;
+    height: 148px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 25px 25px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: -3190px;
+}
+#body5text h1{
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    padding: 20px 20px 20px 40px;
+}
+.footer{
+    margin-top: 150px;
+    width: 1320px;
+    height: 443px;
+    flex-shrink: 0;
+    background-color: #090823;
+    display: table;
+    content: "";
+    clear: both;
+    float: left;
+    padding: 10px 10px;
+    font-family: orbitron;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0fr 1fr 0fr;
+}
+#logo{
+    margin: 0px 796px 163px 149px;
+    width: 524px;
+    height: 100px;
+    gap: 23px;
+    color: white;
+}
+#about{
+    color: azure;
+    width: 148px;
+    height: 213px;
+    margin-top: -20px;
+    margin-left: -800px;
+
+}
+#services{
+    color: azure;
+    width: 149px;
+    height: 213px;
+    margin-top: -20px;
+    margin-left: -630px;
+
+}
+#contact{
+    color: azure;
+    width: 263px;
+    height: 156px;
+    margin-top: -75px;
+    margin-left: -450px;
+    gap: 24px;
+}
+.footer p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 0px -70px 0px;
+}
+.footer h2{
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 0px;
+}
+#logo h1{
+    font-family: Orbitron;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.myLogo {
+    display: inline;
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+}
